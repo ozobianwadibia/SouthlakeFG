@@ -1,11 +1,14 @@
+ /* *{
+    outline: 1px solid red;
+  }
+   */
+
+
 body {
     padding-top: 3.5rem;
   }
   
 img {
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
-  /* *{
-    outline: 1px solid red;
-  }
-   */
+ 
