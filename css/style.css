@@ -3,12 +3,27 @@
   }
    */
 
-
+/* general body styling */
 body {
     padding-top: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
   }
   
+ /* styling for image elements  */
 img {
   border: 0.125rem solid black;
 }
  
+/* styling for banner / background */
+.headerBackground {
+  background-image: url('../assets/images/bannerBG.jpg');
+  background-repeat: repeat;
+  background-color: teal;
+}
+
+/* styling for 'who we are' and 'brief history' sections */
+.whoWeAre, .briefHistory {
+  line-height: 2;
+  font-size: 1.125rem;
+}
+
