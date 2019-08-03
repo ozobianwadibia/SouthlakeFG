@@ -1,7 +1,3 @@
- /* *{
-    outline: 1px solid red;
-  }
-   */
 
 /* general body styling */
 body {
@@ -9,22 +5,43 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   
- /* styling for image elements  */
-img {
-  border: 0.125rem solid black;
-}
- 
+
 /* styling for banner / background */
 .headerBackground {
   background: #EED43F url('../assets/images/bannerBG.jpg');
   background-repeat: repeat;
 }
 
-
-
 /* styling for 'who we are' and 'brief history' sections */
+/* ------------------------------------------------------- */
 .whoWeAre, .briefHistory {
   line-height: 2;
   font-size: 1.125rem;
 }
+
+
+/* styling for the buttons */
+/* ------------------------------------ */
+.infoButton {
+  background-color: #EED43F;
+}
+
+.infoButton:hover {
+  background-color: #212529;
+  color: #EED43F;
+}
+/* --------------------------------- */
+
+ /* styling for image elements  */
+ img {
+  border: 0.125rem solid black;
+}
+ 
+/* styling for help links */
+/* ------------------------------ */
+.extraInfo:hover {
+  color:#251d04;
+}
+
+
 
