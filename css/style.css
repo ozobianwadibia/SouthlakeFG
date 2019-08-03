@@ -16,10 +16,11 @@ img {
  
 /* styling for banner / background */
 .headerBackground {
-  background-image: url('../assets/images/bannerBG.jpg');
+  background: #EED43F url('../assets/images/bannerBG.jpg');
   background-repeat: repeat;
-  background-color: teal;
 }
+
+
 
 /* styling for 'who we are' and 'brief history' sections */
 .whoWeAre, .briefHistory {

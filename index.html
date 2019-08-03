@@ -105,7 +105,8 @@
             motivation and encouragement to each other.
           </p>
           <a
-            class="btn btn-info mt-5 text-uppercase"
+            style="background-color: #EED43F"
+            class="btn mt-5 text-uppercase font-weight-bolder"
             href="./assets/docs/SouthlakeFG Brochure.pdf"
             target="_blank"
             >Brochure &raquo;</a
@@ -127,9 +128,9 @@
             <div class="col-md-4"><strong>Location:</strong></div>
             <div class="col-md-8">
               <address>
-              White's Chapel United Methodist Church, <br />185 South White
-              Chapel Blvd. <br />Southlake, TX 76092
-            </address>
+                White's Chapel United Methodist Church, <br />185 South White
+                Chapel Blvd. <br />Southlake, TX 76092
+              </address>
             </div>
           </div>
           <p>
@@ -148,7 +149,8 @@
           <p><strong>Cell Phones:</strong> Meetings are cell phone friendly</p>
 
           <a
-            class="btn btn-info text-uppercase"
+            style="background-color: #EED43F"
+            class="btn text-uppercase font-weight-bolder"
             href="mailto:SouthlakeFocusGroup-owner@yahoogroups.com?subject=SFG Website Enquiry"
             >Send us an email &raquo;</a
           >
@@ -159,7 +161,7 @@
       <div class="row">
         <div class="col-md-12 mb-5 briefHistory">
           <h3 id="aboutUs">Brief History</h3>
-          <hr>
+          <hr />
           <p>
             The Southlake Focus Group started with 4 people meeting at the
             Corner Bakery (Southlake Town Square). We out grew the Corner Bakery
@@ -270,11 +272,17 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">
-          Copyright &copy; Southlake Focus Group 2019
+          Copyright &copy; Southlake Focus Group <span id="currentYear"></span>
         </p>
       </div>
       <!-- /.container -->
     </footer>
+
+    <script>
+      document.getElementById(
+        "currentYear"
+      ).innerHTML = new Date().getFullYear();
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
